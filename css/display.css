@@ -19,3 +19,13 @@ canvas{
 	width:100%;
 	text-align:center;
 }
+
+@media(max-width: 600px){
+	canvas{
+		height : 300px;
+		width : 100%;
+	}
+	select{
+		width: 100%;
+	}
+}
